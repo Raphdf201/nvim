@@ -10,12 +10,6 @@ return {
       }
     end
   },
-
-  -- LSP for Java
-  {
-    "mfussenegger/nvim-jdtls",
-    ft = { "java" },
-  },
   {
     "mason-org/mason.nvim",
     opts = {}
