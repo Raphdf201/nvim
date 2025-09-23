@@ -6,10 +6,6 @@ vim.cmd("syntax on")
 vim.cmd("filetype plugin indent on")
 vim.opt.number = true
 
--- Ctrl-S to save
-vim.keymap.set("n", "<C-s>", ":w<CR>", { noremap = true })
-vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>a", { noremap = true })
-
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -22,5 +18,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load plugins
+require("keybinds")
 require("lazy").setup("plugins")
 
