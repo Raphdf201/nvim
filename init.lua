@@ -20,4 +20,8 @@ vim.opt.rtp:prepend(lazypath)
 -- Load plugins
 require("keybinds")
 require("lazy").setup("plugins")
+require("java").setup {
+	-- jdtls config
+}
+require("jdtlsConfig")
 
