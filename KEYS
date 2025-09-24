@@ -1,10 +1,21 @@
 LEADER +
 e : explorer sidebar
+f
+  f : find files
+c
+  r : rename referene
+  R : rename file
+  a : Code actions (fix error)
+s
+  G : search whole project
+x
+  x : errors panel
+    then, select w arrows and enter to jump to
+    then, <leader>x to close
 
 EDIT KEYS
 shift v : select line
-    then, j to select more lines
+shift k : show floating docs
 
 gc comment ?
 
-vid a 2:41
