@@ -2,20 +2,60 @@ LEADER +
 e : explorer sidebar
 f
   f : find files
-c
+  b : switch tab
+  t : new terminal
+c : code
   r : rename referene
   R : rename file
-  a : Code actions (fix error)
-s
-  G : search whole project
+  a : actions (fix error)
+s : search
+  G : text trough whole project
+  h : help pages
+  t : TODO comments
+  k : keys
 x
   x : errors panel
     then, select w arrows and enter to jump to
     then, <leader>x to close
+| : vertical split
+- : horizontal split
+b : buffer (tab)
+  d : delete tab
+w : window (split)
+  d : delete split
 
 EDIT KEYS
-shift v : select line
-shift k : show floating docs
+w : next word
+g
+  f : go to file at cursor
+shift
+  k : show floating docs
+  v : select line
+  a : end of line and insert
+brackets : previous and next
+  a : parameter
+  b : tab
+  c : class
+  d : diagnosti
+  e : error
+  f : function
+  i : scope
+  m : method
+  s : misspelled word
+  t : TODO comment
+  w : warning
+  space : new line
+ctrl
+  h : navigate to left split
+  l : navigate to right split
+  j : navigate to lower split
+  k : navigate to upper split
+  arrows : resize split
+number
+  h : move n chars left
+  l : move n chars right
+  j : move n chars down
+  k : move n chars up
 
 gc comment ?
 
